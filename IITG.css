@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display:flex;
+    background-color:black;
+    height:55px;
+    align-items: center;
+    color:white;
+    position: sticky;
+    top:0px;
+     min-width:100vw;
+     width:1300px;
+
+}
+.nav-list{
+    
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:white;
+    position: sticky;
+    top:0;
+}
+.navbar li a{
+    text-decoration: none;
+    padding:20px;
+    color:white;
+}
+.navbar li a:hover{
+    color:blue;
+}
+.nav-list{
+    display:flex;
+}
+.right-nav{
+    text-align: right;
+    margin: 10px 50px;
+}
+#search{
+    padding:7px 42px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.btn{
+    padding:7px 15px;
+    margin:8px;
+    border-radius: 10px;
+}
+.firsthalf{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    position: absolute;
+    top:190px;
+    
+
+}
+.first{
+    font-size:22px;
+    margin:30px;
+    font-family:sans-serif;
+}
+.big{
+    font-size:40px;
+}
+.main{
+    height:75vh;
+    
+}
+.aboutfirst{
+    background:url("iitg8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    
+}
+.aboutpara{
+    font-size:23px;
+    font-family:sans-serif;
+}
+.heading{
+    font-size: 40px;
+}
+.courses{
+    min-height:98vh;
+    background-color:ghostwhite;
+    
+}
+.courseheading{
+    font-size: 40px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+
+}
+.table1 ,th,td{
+    border:4px solid black;
+
+}
+.table1{
+    border-collapse: collapse;
+    text-align: center;
+    width:800px;
+    margin:20px auto;
+    table-layout: fixed;
+    
+}
+.table1 td  {
+    padding: 20px 20px;
+    font-size: 19px;
+    height:50px;
+    width:100px;
+}
+.table1 th{
+    padding:20px 25px;
+    font-size: 27px;
+    font-weight:bold;
+    background-color: gray;
+    
+}
+.table1 tr:hover{
+    background-color:gainsboro;
+}
+.achievements{
+    min-height: 98vh;
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+
+}
+.studentachieve{
+    font-size:45px;
+    margin-top: 4%;
+    margin-bottom:1%;
+}
+.achieve{
+    
+    margin:3px;
+    padding:8px;
+    display: flex;
+    align-items: center;
+}
+.achieve img{
+    height:35%;
+    width:30%;
+
+}
+.achieve p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin:8px;
+    margin-left: 20px;
+}
+.contact{
+    min-height: 98vh;
+    background-color: gainsboro;
+}
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+.contactform{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+}
+.contactform input{
+    border:4px solid black;
+    margin:5px auto;
+    padding:20px;
+    width:650px;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+#abhi{
+    padding-bottom: 170px;
+}
+.btn1{
+    margin:8px 560px;
+    text-align: center;
+    padding:14px 45px;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:1140px)
+{
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .navbar{
+        flex-direction: column;
+        height:200px;
+        justify-content: center;
+    }
+    .right-nav{
+        text-align: center;
+    }
+}
+
